@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -89,7 +88,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -775,7 +773,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
