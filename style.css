@@ -514,7 +514,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -1038,4 +1038,20 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* --MODIFICATIONS-- */
+
+.text-img{
+    font-size: 22px;
+    padding: 15px;
+}
+.text-legend{
+    font-size: 14px;
+}
+.strong-ref{
+    font-weight: 700;
+}
+.subtext{
+    font-size: 12px;
 }
