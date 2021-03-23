@@ -300,7 +300,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    width: auto;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -722,6 +723,8 @@ h3 {
 
 h1 {
     color: #333333!important;
+    font-size: 40px !important;
+    font-weight: bolder;
 }
 
 h4 {
@@ -1109,4 +1112,11 @@ h4 {
 }
 .footer-link{
     width: 200px;
+}
+.img-logo{
+    width: 100px;
+    height: auto;
+}
+.tc-black{
+    color: #000000 !important;
 }
