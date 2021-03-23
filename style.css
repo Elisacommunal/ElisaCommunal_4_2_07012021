@@ -1010,7 +1010,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 15px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1043,6 +1043,9 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .centr{
+        width: 100% !important;
+    }
 }
 
 /* --MODIFICATIONS-- */
@@ -1059,4 +1062,41 @@ h4 {
 }
 .subtext{
     font-size: 12px;
+    width: 75%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact{
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: #FFFFFF;
+}
+@media screen and (min-width : 768px){
+    .form{
+        display: block;
+        justify-content: center;
+    }
+}
+.bloc-centr{
+    display: flex;
+    justify-content: center;
+}
+.centr{
+    width: 75%;
+}
+@media (max-width: 767px){
+    .center-down{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.bttn{
+    font-size: 13px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
