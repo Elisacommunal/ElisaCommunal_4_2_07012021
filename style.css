@@ -821,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1068,10 +1068,12 @@ h4 {
     margin-left: auto;
 }
 .contact{
+    font-size: 15px;
     text-align: center;
     align-items: center;
     padding: 15px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
+    margin: 20px;
 }
 @media screen and (min-width : 768px){
     .form{
