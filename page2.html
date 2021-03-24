@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="entreprise, site web, agence, design, webdesign, Lyon,">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -48,7 +47,7 @@
 							<a href="index.html">Accueil</a>
 						</li>
 						<li>
-							<a href="page2.html">Contact</a>
+							<a href="#bloc-7">Formulaire</a>
 						</li>
 					</ul>
 				</div>
@@ -87,24 +86,24 @@
 							<label>
 								Nom
 							</label>
-							<input id="name" class="form-control" required />
+							<input id="name" aria-labelledby="name" class="form-control" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Adresse email
 							</label>
-							<input id="email" class="form-control" type="email" required />
+							<input id="email" aria-labelledby="email" class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="text" required id="input_504" />
+							<input class="form-control" id="decouverte" aria-labelledby="decouverte" type="text" required  />
 						</div>
 						<div class="form-group">
 							<label>
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</label><textarea id="message" aria-labelledby="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div> 
 						<button class="col-sm-2 col-sm-offset-5 bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
@@ -112,7 +111,7 @@
 					</form>
 				</div>
 				<div class="col-sm-6 col-sm-offset-3">
-					<p class="contact bgc-atomic-tangerine btn-lg">
+					<p class="contact bgc-atomic-tangerine btn-lg ">
 						contact@lachouetteagence.com<br>
 						2 place Sathonay 69001 Lyon<br>
 						Ouvert de 9h à 18h, du lundi au vendredi<br>
@@ -129,59 +128,48 @@
 </main>
 <!-- Footer - bloc-8 -->
 <footer>
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white subtext tc-black">
-					<span class="strong-ref">La chouette agence - Agence web basée à Lyon.</span>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-xs-3 col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center white subtext tc-black">
+						<span class="strong-ref">La chouette agence - Agence web basée à Lyon.</span>
+					</p>
+					<div class="row row-no-gutters social">
+						<div class="col-xs-3 col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" title="Retrouvez-nous sur Twitter"><span class="fa fa-twitter icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-xs-3 col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" title="Retrouvez-nous sur Facebook"><span class="fa fa-facebook icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-xs-3 col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" title="Retrouvez-nous sur Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-xs-3 col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" title="Retrouvez-nous sur Instagram"><span class="fa fa-instagram icon-md"></span></a>
+							</div>
 						</div>
 					</div>
-					<div class="col-xs-3 col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+					<div class="footer">
+						<div class="tc-white footer-link">
+							<p class="tc-white text-footer">Partenaires</p>
+								<p><a class="tc-white text-footer" href="voiture.com">voiture.com</a></p>
+								<p><a class="tc-white text-footer" href="pizza.com">pizza.com</a></p>
+								<p><a class="tc-white text-footer" href="matoiture.com">matoiture.com</a></p>	
+								<p><a class="tc-white text-footer" href="immobilierseo.com">immobilierseo.com</a></p>
 						</div>
-					</div>
-					<div class="col-xs-3 col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-xs-3 col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
-				</div>
-				<div class="footer">
-					<div class="footer-link tc-black">
-						Partenaires
-							<ul>
-								<li><a class="tc-black" href="voiture.com">voiture.com</a></li>
-								<li><a class="tc-black" href="pizza.com">pizza.com</a></li>
-								<li><a class="tc-black" href="matoiture.com">matoiture.com</a></li>
-								<li><a class="tc-black" href="immobilierseo.com">immobilierseo.com</a></li>
-							</ul>		
-					</div>
-					<div class="footer-link tc-black">
-						Liens utiles
-						<ul>
-							<li><a class="tc-black" href="annuaireagence.com">annuaireagence.com</a></li>
-							<li><a class="tc-black" href="annuairemarketing.com">annuairemarketing.com</a></li>
-							<li><a class="tc-black" href="annuairewordpress.com">annuairewordpress.com</a></li>
-							<li><a class="tc-black" href="listeagence.com">listeagence.com</a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 </footer>
 <!-- Footer - bloc-8 END -->
 
